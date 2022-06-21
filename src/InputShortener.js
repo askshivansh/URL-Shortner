@@ -10,7 +10,7 @@ const InputShortener = ({ setInputValue }) => {
 
   return (
     <div className="inputContainer">
-      <h1>Short<span>Any URL</span></h1>
+      <h1>Short<span> Any URL</span></h1>
       <div>
         <input
           type="text"
@@ -18,7 +18,7 @@ const InputShortener = ({ setInputValue }) => {
           value={value}
           onChange={e => setValue(e.target.value)}  
         />
-        <button onClick={handleClick}>short it</button>
+        <button onClick={handleClick}>short</button>
       </div>
     </div>
   )
