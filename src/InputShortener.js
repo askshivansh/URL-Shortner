@@ -18,7 +18,7 @@ const InputShortener = ({ setInputValue }) => {
           value={value}
           onChange={e => setValue(e.target.value)}  
         />
-        <button onClick={handleClick}>shorten</button>
+        <button onClick={handleClick}>short it</button>
       </div>
     </div>
   )
